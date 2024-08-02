@@ -1,0 +1,205 @@
+/* src/styles/BannerImageComp.module.css */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  }
+  
+  .bannerImageContainer {
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    /* z-index: 2;  */
+    overflow: hidden; 
+    
+  }
+  
+  .bannerContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    /* z-index: 3;  */
+  }
+  
+  .bannerEdit {
+    align-self: flex-end;
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+   
+  }
+  .bannerEditPencil
+  {
+    cursor: pointer;
+    font-size: 30px;
+   z-index: 1;
+  }
+  
+
+    /* banner 1 */
+
+  .banner1Title {
+    font-size: 50px;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .banner1Description {
+    font-size: 22px;
+    color: black;
+  }
+  
+  .banner1Button {
+    font-size: 16px;
+    width: 150px;
+    margin-top: 200px;
+    bottom: 20%;
+    padding: 15px 25px;
+    background-color: #000000;
+    color: rgb(246, 191, 52);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+
+  
+  .banner1Image img {
+    bottom: 0px;
+    right: 0px;
+    width: 60%;
+   position: absolute;
+   border-top-left-radius: 85%;
+ 
+  
+   
+
+  }
+
+  /* banner 2 */
+  .banner2Title {
+    margin-left: 140px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  
+  .banner2Description {
+    font-size: 22px;
+    color: black;
+    margin-left: 160px;
+  }
+  
+  .banner2Button {
+    margin-top: 350px;
+    margin-left: 400px;
+    padding: 15px 25px;
+    background-color: #28ace4;
+    font-size: 16px;
+    color: white;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .banner2Image img
+  {
+    
+    width:45%;
+    position: absolute;
+    bottom: 24px;
+    left:45px;
+
+    border-radius: 50%;
+    
+  }
+
+    /* banner 3 */
+  .banner3Image img
+  {
+    width: 43%;
+    position: absolute;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    left: 340px;
+    bottom: 99px;;
+  }
+
+ 
+  .banner3Title {
+    margin-left: 140px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  .banner3Description {
+    font-size: 22px;
+    color: rgb(198, 194, 243);
+    margin-left: 160px;
+  }
+  .banner3Button {
+    margin-top: 180px;
+    margin-left: 50px;
+    padding: 15px 25px;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(16, 8, 67);
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  /* banner 4 */
+
+  .banner4Image img
+  {
+    width: 500px;
+    height: 285px;
+    position: absolute;
+
+   left:105px;
+    bottom: 85px;
+  }
+  .banner4Title {
+    margin-left: 140px;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+  }
+  .banner4Description {
+    font-size: 22px;
+    color: rgb(198, 194, 243);
+    margin-left: 160px;
+  }
+  .banner4Button {
+    margin-top: 370px;
+    margin-left: 82px;
+    padding: 15px 25px;
+    background-color: #bd8223;
+    font-size: 16px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+    width: 505px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
